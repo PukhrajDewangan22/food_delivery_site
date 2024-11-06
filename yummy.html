@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <!-- website shortcut icon-->
+    <link rel="shortcut icon" href="websiteiconss.png">
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="food.css" rel="stylesheet">
+    <!--owl crausel css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="yummy.css">
+</head>
+<body>
+  <!--header-->
+  <!--i tag is used for icon from font awesome-->
+<header>
+    <p class="logo"><i class="fa-brands fa-first-order"></i>Yummy</p>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <nav class="navbar"> 
+     <a href="#home">home</a>
+      <a href="#speciality">Speciality</a>
+      <a href="#trending">Trending</a>
+      <a href="#popular">popular</a>
+      <a href="#gallery">gallery</a>
+      <a href="#review">review</a>
+    </nav>
+    <!--search bar-->
+    <div class="icon">
+      <i class="fas fa-search" id="search-btn"></i>
+      <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    <form action="" class="search-bar-container">
+      <input type="search"  placeholder="search here." id="search-bar">
+      <label for="search-bar" class="fas fa-search"></label>
+    </form>
+ <!--login-->
+ <div class="login-form-container">
+  <i class="fa-solid fa-xmark" id="form-cross"></i>
+ <form action="">
+    <h3>Login</h3>
+   <input type="emai" class="boxes" placeholder="Enter your E-mail">
+   <input type="password" class="boxes" placeholder="Enter your password">
+   <input type="submit" value="login Now" class="button">
+   <p>forget password?<a href=""#>Click here</a></p>
+   <p>don't have an account?<a href=""#>Register now</a></p>
+ </form>
+ </div>
+ </header>
+ <!--without Jquery owl crousel not work, it should be put before bootstrap-->
+ <!--JQuery cdn-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!--bootstap for courasel-->
+ <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="1000">
+      <img src="C:\Users\HP\Desktop\yummy\chef (1).jpg..." class="d-block w-100" alt="..." height="600" width="600">
+    </div>
+    <div class="carousel-item" data-bs-interval="500">
+      <img src="C:\Users\HP\Desktop\yummy\biryanioffer.jpg..." class="d-block w-100" alt="..."
+      height="600" width="600">
+    </div>
+    <div class="carousel-item" data-bs-interval="500">
+      <img src="C:\Users\HP\Desktop\yummy\pizzaslider.jpg..." class="d-block w-100" alt="..."height="600" width="600">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--home section-->
+<section class="home" id="home">
+  <div class="content">
+    <h3>Food made with Love</h3>
+    <h4>delicious Burger !!</h4>
+   
+     <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+  </div>
+  <div class="burger">
+    <img src="C:\Users\HP\Desktop\yummy\burger1.webp">
+    </div>
+
+</section>
+<!--speciality section-->
+<section class="speciality" id="speciality">
+  <h1 class="heading"> Our <span>Speciality</span></h1>
+  <div class="box-container">
+    <div class="box">
+      <img class="image" src="C:\Users\HP\Desktop\yummy\pizza.avif">
+      <div class="content">
+        <img src="C:\Users\HP\Desktop\yummy\pizzaicon2.png">
+        <h2>Yummy Pizza</h2>
+        
+      </div>
+    </div>
+      <div class="box">
+      <img class="image" src="C:\Users\HP\Desktop\yummy\coldrink.avif">
+      <div class="content">
+        <img src="C:\Users\HP\Desktop\yummy\colddrinkicon.png">
+        <h2>Cold Drink</h2> 
+      </div>
+    </div>
+       <div class="box">
+      <img class="image" src="C:\Users\HP\Desktop\yummy\thali.avif">
+      <div class="content">
+        <img src="C:\Users\HP\Desktop\yummy\thaliicon.jpg">
+        <h2>Special Thali</h2> 
+      </div>
+    </div>
+       <div class="box">
+      <img class="image" src="C:\Users\HP\Desktop\yummy\biryani1.avif">
+      <div class="content">
+        <img src="C:\Users\HP\Desktop\yummy\biryanilogo3.png">    
+        <h2>Hyderabadi Biryani</h2> 
+      </div>
+    </div>
+       <div class="box">
+      <img class="image" src="C:\Users\HP\Desktop\yummy\icecream.jpg">
+      <div class="content">
+        <img src="C:\Users\HP\Desktop\yummy\icecreamicon2.png">
+        <h2>Cold icecream</h2> 
+      </div>
+    </div>
+       <div class="box">
+      <img class="image" src="C:\Users\HP\Desktop\yummy\burger3.jpg">
+      <div class="content">
+        <img src="C:\Users\HP\Desktop\yummy\burgericon3.png">
+        <h2>Tasty Burger</h2> 
+      </div>
+    </div>
+    </div>
+</section>
+ <!--trending section-->
+<!--owl crausel trending -->
+<section class="trending" id="trending">
+  <h1 class="heading">  <span>Trending</span> This week</h1>
+   <div class="box-container">
+    <div class="slide-1 container pb-5 pt-1">
+     <div class="owl-carousel owl-theme">
+      <div class="item"><div class="box">        
+        <span class="prices"> ₹89</span>
+        <img src="C:\Users\HP\Desktop\yummy\sabudanajpg.jpg" >
+        <h3>Tasty Wada</h3>
+         <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+      </div>
+     </div>
+       <div class="item"><div class="box">      
+         <span class="prices"> ₹79</span>
+         <img src="C:\Users\HP\Desktop\yummy\pasta.jpg" >
+         <h3>Tasty Pasta</h3>
+          <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+       </div>
+      </div>
+      <div class="item"><div class="box">
+         <span class="prices"> ₹69</span>
+         <img src="C:\Users\HP\Desktop\yummy\cakered1.jpg" >
+         <h3>lava Cake</h3>
+          <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+       </div></div>
+       <div class="item"><div class="box">
+         <span class="prices"> ₹99</span>
+         <img src="C:\Users\HP\Desktop\yummy\manchurian.jpg" >
+         <h3> Manchurian</h3>
+ 
+          <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+       </div></div>
+       <div class="item"><div class="box">
+         <span class="prices"> ₹59</span>
+         <img src="C:\Users\HP\Desktop\yummy\momos_.jpg" >
+         <h3>Wow Momos</h3>
+          <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+       </div></div>
+       <div class="item"><div class="box">
+         <span class="prices"> ₹89 </span>
+         <img src="C:\Users\HP\Desktop\yummy\burgers1.jpg" >
+         <h3>Yummy Burger</h3>
+          <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+       </div></div>
+       <div class="item"><div class="box">
+         <span class="prices"> ₹79</span>
+         <img src="C:\Users\HP\Desktop\yummy\samosa.jpg" >
+         <h3>PaneerSamosa</h3>
+          <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+       </div></div>
+      </div>
+    </div>
+    </div>
+   </section>
+<!--popular -->
+<section class="popular" id="popular">
+  <h1 class="heading"> Most <span>Popular</span> Food</h1>
+  <div class="box-container">
+    <div class="box">
+      <span class="price"> ₹49 - ₹99</span>
+      <img src="C:\Users\HP\Desktop\yummy\chhole bhature.jpg" >
+      <h2>Yummy Chhole Bhature</h2>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+       <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+    </div>
+      <div class="box">
+        <span class="price"> ₹199 - ₹499</span>
+        <img src="C:\Users\HP\Downloads\cake.jpg" >
+        <h2>Delicious Cake</h2>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+         <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+      </div>
+
+        <div class="box">
+          <span class="price"> ₹79 - ₹149</span>
+          <img src="C:\Users\HP\Downloads\pavbhaji5.jpg" >
+          <h2>Tasty Pav Bhaji</h2>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+           <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+        </div>
+
+          <div class="box">
+            <span class="price"> ₹99 - ₹199</span>
+            <img src="C:\Users\HP\Downloads\paneer3.jpg" >
+            <h2>Special Sahi Paneer</h2>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+             <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+          </div>
+
+            <div class="box">
+              <span class="price"> ₹99 - ₹399</span>
+              <img src="C:\Users\HP\Downloads\namkeen.avif" >
+              <h2>Tasty Namkeen</h2>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="far fa-star"></i>
+              </div>
+               <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+            </div>
+
+              <div class="box">
+                <span class="price"> ₹89 - ₹299</span>
+                <img src="C:\Users\HP\Downloads\burger8.avif" >
+                <h2>Yummy Burger</h2>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                 <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">order now</a>
+              </div>
+  </div> 
+
+             </section>
+            <!--processing metod-->
+         <section class="step">
+           <div class="box">
+           <div class="logo">
+             <img src="C:\Users\HP\Downloads\ordericon.png" >
+            </div>
+            <h2>Order your Favourite Food</h2>
+        </div>
+
+         <div class="box">
+           <div class="logo">
+           <img src="C:\Users\HP\Downloads\deliveryicon.png" >
+           </div>
+           <h2>Delivery with in 45 Minute</h2>
+        </div>
+
+          <div class="box">
+            <div class="logo">
+              <img src="C:\Users\HP\Downloads\payment3.png" >
+             </div>
+             <h2>Easy Payment Method</h2>
+        </div>
+ </section>
+   <!--gallery-->
+    <section class="gallery" id="gallery">
+      <h1 class="heading"> Our food <span>Gallery</span></h1>
+      <div class="box-container">
+  
+        <div class="box">
+
+          <img src="C:\Users\HP\Desktop\yummy\donut.jpg">
+          <div class="content">
+            <h2> Tasty Donut</h2>
+            <h5>A doughnut or donut is a type of food made from leavened fried dough.IT is sweet in taste</h5>
+            <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="box">
+
+          <img src="C:\Users\HP\Desktop\yummy\chicken.jpg">
+          <div class="content">
+            <h2> Fried Chicken</h2>
+            <h5>Deep-fry over a medium flame, till the chicken is tender. It takes 15-20 minutes. 4. Serve garnished with lemon twists and coriander leaves</h5>
+            <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="C:\Users\HP\Desktop\yummy\dosa.jpg">
+          <div class="content">
+            <h2>Crispy Dosa</h2>
+            <h5>Dosa is a type of savoury rice cake, originating from South India, popular as a breakfast food in Southern India and in Sri Lanka.</h5>
+            <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">Order Now</a>
+          </div>
+        </div>
+        
+        <div class="box">
+          <img src="C:\Users\HP\Desktop\yummy\momos2.jpg">
+          <div class="content">
+            <h2>Wow Momos</h2>
+            <h5>Momo is a type of steamed filled dumpling with origins from the Himalayan region that is popular in Tibet, Bhutan, Nepal and India.</h5>
+            <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">Order Now</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="C:\Users\HP\Desktop\yummy\idli.jpg">
+          <div class="content">
+            <h2> Soft Idli</h2>
+            <h5>Idli is a type of savoury rice cake, originating from South India, popular as a breakfast food in Southern India and in Sri Lanka.</h5>
+            <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">Order Now</a>
+          </div>
+        </div>
+        
+        <div class="box">
+          <img src="C:\Users\HP\Desktop\yummy\noodle.jpg">
+          <div class="content">
+            <h2>Yummy Noodle</h2>
+            <h5>long thin strips of food made of flour, egg and water that are cooked in boiling water or used in soups.</h5>
+            <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">Order Now</a>
+          </div>
+        </div>
+        
+        <div class="box">
+          <img src="C:\Users\HP\Desktop\yummy\fries.webp">
+          <div class="content">
+            <h2>Crispy Fries</h2>
+            <h5>French fries are a delicious snack that you can make at home by using a deep fryer, potatoes, and salt.</h5>
+            <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">Order Now</a>
+          </div>
+        </div>
+        
+        <div class="box">
+          <img src="C:\Users\HP\Desktop\yummy\dahibhalla.jpg">
+          <div class="content">
+            <h2>Dahi Bhalle</h2>
+            <h5>Dahi Bhalla is a sumptuous dish, made with curd and some easily available spices and veggies.</h5>
+            <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="C:\Users\HP\Desktop\yummy\sandwich.webp">
+          <div class="content">
+            <h2>yummy Sandwich</h2>
+            <h5>sandwich, in its basic form, slices of meat, cheese, or other food placed between two slices of bread</h5>
+            <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">Order Now</a>
+          </div>
+        </div>
+              
+        <div class="box">
+          <img src="C:\Users\HP\Desktop\yummy\rajbhog.webp">
+          <div class="content">
+            <h2>Sweet</h2>
+            <h5>Indian dessert - includes kaju katli, gulab jamun, rasgulla, burfis, ladoos. Popular north Indian & South Indian sweets</h5>
+            <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">Order Now</a>
+          </div>
+        </div>
+              
+        <div class="box">
+          <img src="C:\Users\HP\Desktop\yummy\paan.jpg">
+          <div class="content">
+            <h2>Sweet Paan</h2>
+            <h5> Paan is an Indian mouth sweetener, freshener, and digestive made from betel leaves.</h5>
+            <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">Order Now</a>
+          </div>
+        </div>
+              
+        <div class="box">
+          <img src="C:\Users\HP\Desktop\yummy\fish.jpg">
+          <div class="content">
+            <h2>Fish Fry</h2>
+            <h5>A fish fry is a meal containing battered or breaded fried fish. </p>
+            <a href="C:\Users\HP\Desktop\yummy\proceed.html" class="btn">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!--review section-->
+    <section class="review" id="review">
+      <h1 class="heading"> Our Customer Food <span>Review</span> </h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="C:\Users\HP\Desktop\yummy\virat.jpg">
+  
+          <h1>Virat Kohli</h1> 
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h6>One must try Chole Bhature of Yummy. Excellent. Very tasty.  No one can make such Chole Bhature in  theentire World.</h6>
+          </div>
+          <div class="box">
+            <img src="C:\Users\HP\Desktop\yummy\foreginerjpg.jpg">
+            <h1>Elvish James</h1> 
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <h6>Yummy burger is one of the best in the town. Very delicious burger strongly recomend this especially Maharaja burger its very tasty</h6>
+            </div>
+            <div class="box">
+              <img src="C:\Users\HP\Desktop\yummy\sourav.jpg">
+      
+              <h1>Sourav Joshi</h1> 
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <h6>More than 40 varieties of maggi are there in Yummy and Maggi taste was awesome.No one can make this taste, I recommended all to try atleast one time. </h6>
+  
+              </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="footer-box">
+          <a href="facebook.com" class="btn">Facebook</a>
+          <a href="instagram.com" class="btn">Instagram</a>
+          <a href="twitter.com" class="btn">Twitter</a>
+          <a href="youtube.com" class="btn">Youtube</a>
+          <a href="whatsapp.com" class="btn">Wathsapp</a>
+          <a href="pinterest.com" class="btn">Pinterest</a>
+        </div>
+        <h1 class="credit"> <span>@Yummy </span> ! all right reserved</h1>
+
+      </section>
+      <div class="loader">
+        <img src="C:\Users\HP\Desktop\yummy\food.gif">
+      </div>
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--fontawesome js-->
+    <script src="https://kit.fontawesome.com/4a2039464a.js" crossorigin="anonymous"></script>
+    <script src="food.js"></script>
+    <!--owl crausel  js written after bootstrap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $('.slide-1 .owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      autoplay: true,
+      nav:true,
+      responsive:{
+          0:{
+              items:1,
+              nav: true
+          },
+          600:{
+              items:2,
+              nav: false
+          },
+          1000:{
+              items:3,
+              nav: true,
+              loop: false
+          }
+      }
+  })
+</script>
+</body>
+</html>
