@@ -37,9 +37,6 @@ Yummy is a user-friendly online food delivery website designed using HTML, CSS, 
 - Add items to your cart and proceed to checkout.
 - Confirm your order details and place the order directly.
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Author
 
