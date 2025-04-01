@@ -38,12 +38,14 @@ Yummy is a user-friendly online food delivery website designed using HTML, CSS, 
 - Confirm your order details and place the order directly.
 
 
-## Author
-
-Created by Pukhraj Dewangan.
+---
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Commit your changes.
+4. Submit a pull request.
 
 ---
 Feel free to update this file to add more details, such as additional features or specific instructions!
 ```
-
-Let me know if you'd like to customize this further. 😊
